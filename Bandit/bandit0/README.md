@@ -11,6 +11,7 @@ ssh bandit0@{hostname} -p {port}
 
 Password is **bandit0**, then we get:
 
+---
 ```
       ,----..            ,----,          .---.
      /   /   \         ,/   .`|         /. ./|
@@ -96,3 +97,15 @@ irc.overthewire.org.
   irc.overthewire.org #wargames.
 
   Enjoy your stay!
+
+---
+
+List files in this directory:
+```
+ls
+```
+
+See contents in the file:
+```
+cat {filename}
+```
