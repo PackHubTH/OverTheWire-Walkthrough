@@ -28,4 +28,5 @@ See contents in the file of current directory by adding "./" before filename:
 cat ./{filename}
 ```
 
+Then you get **password** for bandit2
 ![alt text](2.png)
