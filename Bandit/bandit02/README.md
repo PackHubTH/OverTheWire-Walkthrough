@@ -14,7 +14,7 @@ ssh bandit2@{hostname} -p {port}
 
 ---
 
-See contents in the file called spaces in filename by adding '\' before special character, for example:
+See contents in the file called spaces in filename by adding `\` before special character, for example:
 
 ```
 cat spaces\ in\ this\ file
