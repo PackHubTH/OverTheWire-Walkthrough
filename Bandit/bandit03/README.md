@@ -1,27 +1,39 @@
-# Bandit Level 2
+# Bandit Level 3
 
 ## Goal
 
-The password for the next level is stored in a file called spaces in this filename located in the home directory.
+The password for the next level is stored in a hidden file in the inhere directory.
 
 ## My solution
 
 Connect to the server using ssh:
 
 ```
-ssh bandit2@{hostname} -p {port}
+ssh bandit3@{hostname} -p {port}
 ```
 
 ---
 
-See contents in the file called spaces in filename by adding `\` before special characters, for example:
+Change directory by using `cd`:
 
 ```
-cat spaces\ in\ this\ file
+cd {dirname}
 ```
 
-Then you get **password** for bandit3
+List directory contents by using `ls` with `-a` to show entries starting with `.`:
+
+```
+ls -a
+```
+
+You can see the hidden file following by `.`.
 
 <div>
     <img src="1.png" width=80% />
+</div>
+
+Then you get **password** for bandit3 by using `cat` command.
+
+<div>
+    <img src="2.png" width=80% />
 </div>
