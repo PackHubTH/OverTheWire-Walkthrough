@@ -1,4 +1,8 @@
-# WeChall Scoreboard
+# OverTheWire
+
+https://overthewire.org/wargames/
+
+## WeChall Scoreboard
 
 OverTheWire makes use of a scoreboard provided by WeChall to allow players to track their own progress and promote some healthy competition between players. To make use of this scoreboard for OverTheWire games, you need to follow these steps:
 
@@ -21,7 +25,7 @@ set -Ux WECHALLUSER "YourUserName"
 
 You may need to logout and login again for these changes to take effect. To test whether the environment variables are registered, type `echo $WECHALLUSER`, which should show that environment variable.
 
-Next, edit ~/.ssh/config (or create it if it doesn’t exist) and add:
+4. Next, edit ~/.ssh/config (or create it if it doesn’t exist) and add:
 
 ```
 Host *.labs.overthewire.org
