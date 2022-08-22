@@ -20,7 +20,9 @@ List files in the current directory:
 ls
 ```
 
-![alt text](1.png)
+<div align=center>
+    <img src="1.png" width=80% />
+</div>
 
 See contents in the file of current directory by adding "./" before filename:
 
@@ -29,4 +31,7 @@ cat ./{filename}
 ```
 
 Then you get **password** for bandit2
-![alt text](2.png)
+
+<div align=center>
+    <img src="2.png" width=80% />
+</div>
