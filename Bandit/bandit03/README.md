@@ -32,7 +32,7 @@ You can see the hidden file following by `.`.
     <img src="1.png" width=80% />
 </div>
 
-Then you get **password** for bandit3 by using `cat` command.
+Then you get **password** for bandit4 by using `cat` command.
 
 <div>
     <img src="2.png" width=80% />
