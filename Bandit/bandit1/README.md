@@ -20,7 +20,7 @@ List files in the current directory:
 ls
 ```
 
-<div align=center>
+<div>
     <img src="1.png" width=80% />
 </div>
 
@@ -32,6 +32,6 @@ cat ./{filename}
 
 Then you get **password** for bandit2
 
-<div align=center>
+<div>
     <img src="2.png" width=80% />
 </div>
