@@ -33,9 +33,7 @@ find . -type f ! -executable -size 1033c
 - `.` = Current directory.
 - `-type f` = File is of type regular file.
 - `! -executable` = Search for files which are not executable.
-- `-exec {command}` = Execute command.
-- `file {}` = Determine file type, `{}` is replaced by the output from `find` command.
-- `grep ASCII` = Print output only files that contain ASCII text.
+- `-size 1033c` = Size of file is 1033 bytes.
 
 The output is shown below.
 
